@@ -2,6 +2,7 @@
 #include <Foco.hpp>
 #include <list>
 using namespace std;
+
 class SerieNavidad
 {
 private:
@@ -27,6 +28,7 @@ public:
 
     void Imprimir()
     {
+        
         for (auto &&focoActual : focos)
         {
             std::cout
